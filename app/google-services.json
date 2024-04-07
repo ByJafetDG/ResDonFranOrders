@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "121494555755",
+    "firebase_url": "https://donfranrestaurant-default-rtdb.firebaseio.com",
+    "project_id": "donfranrestaurant",
+    "storage_bucket": "donfranrestaurant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121494555755:android:c9c81caf78f7d0b437b52e",
+        "android_client_info": {
+          "package_name": "com.example.donfranorders"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121494555755-97movl8q4gaobfc42jpcbbce0cseopd2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxGNMwq8U6RqGelSbz2GQIPGraMLzjyBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121494555755-97movl8q4gaobfc42jpcbbce0cseopd2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121494555755:android:10a0d35f84042e0137b52e",
+        "android_client_info": {
+          "package_name": "com.example.donfranrestaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121494555755-sgm7or70h8vigii9ubhf3mdk6t5hei99.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.donfranrestaurant",
+            "certificate_hash": "10d6730cbc2361d20a893c0def671a795c16f14f"
+          }
+        },
+        {
+          "client_id": "121494555755-97movl8q4gaobfc42jpcbbce0cseopd2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxGNMwq8U6RqGelSbz2GQIPGraMLzjyBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121494555755-97movl8q4gaobfc42jpcbbce0cseopd2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

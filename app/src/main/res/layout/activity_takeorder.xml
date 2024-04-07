@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F151B">
+
+    <ScrollView
+        android:id="@+id/svBebidas"
+        android:layout_width="1273dp"
+        android:layout_height="527dp"
+        android:layout_marginTop="200dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvGaseosas"
+                android:layout_width="115dp"
+                android:layout_height="33dp"
+                android:layout_marginStart="82dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/fenix"
+                android:text="Gaseosas"
+                android:textColor="#FFF8F8"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/ivbBarB1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="-34dp"
+                app:srcCompat="@drawable/vectorvertical" />
+
+            <HorizontalScrollView
+                android:layout_width="1270dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="Imagenes de bebidas gaseosas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/linearlayoutGaseosas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"></LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNaturales"
+                    android:layout_width="190dp"
+                    android:layout_height="33dp"
+                    android:layout_marginStart="82dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/fenix"
+                    android:text="Naturales"
+                    android:textColor="#FFF8F8"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/ivBarB2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="-34dp"
+                    app:srcCompat="@drawable/vectorvertical" />
+
+                <HorizontalScrollView
+                    android:layout_width="1270dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="Imagenes de bebidas naturales"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:id="@+id/linearlayoutNaturales"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"></LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvCervezas"
+                    android:layout_width="190dp"
+                    android:layout_height="33dp"
+                    android:layout_marginStart="82dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/fenix"
+                    android:text="Cervezas"
+                    android:textColor="#FFF8F8"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/ivBarB3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="-34dp"
+                    app:srcCompat="@drawable/vectorvertical" />
+
+                <HorizontalScrollView
+                    android:layout_width="1270dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="Imagenes de cervezas"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:id="@+id/linearlayoutCervezas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"></LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvCalientes"
+                    android:layout_width="190dp"
+                    android:layout_height="33dp"
+                    android:layout_marginStart="82dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/fenix"
+                    android:text="Calientes"
+                    android:textColor="#FFF8F8"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/ivBarB4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="-34dp"
+                    app:srcCompat="@drawable/vectorvertical" />
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <HorizontalScrollView
+                    android:layout_width="1270dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="Imagenes de bebidas calientes"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:id="@+id/linearlayoutCalientes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"></LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnBebidas"
+        android:layout_width="140dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#00EEC800"
+        android:fontFamily="@font/fenix"
+        android:text="Bebidas"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        app:cornerRadius="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24"
+        app:strokeColor="#EEC800"
+        app:strokeWidth="?android:attr/buttonCornerRadius" />
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="140dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#00EEC800"
+        android:fontFamily="@font/fenix"
+        android:text="Menú"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:cornerRadius="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24"
+        app:strokeColor="#EEC800"
+        app:strokeWidth="?android:attr/buttonCornerRadius" />
+
+    <ScrollView
+        android:id="@+id/svMenu"
+        android:layout_width="1275dp"
+        android:layout_height="521dp"
+        android:layout_marginTop="200dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvEntradas"
+                android:layout_width="120dp"
+                android:layout_height="33dp"
+                android:layout_marginStart="82dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/fenix"
+                android:text="Entradas"
+                android:textColor="#FFF8F8"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/ivbarE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="-34dp"
+                app:srcCompat="@drawable/vectorvertical" />
+
+            <HorizontalScrollView
+                android:layout_width="1270dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="Imagenes de entradas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/linearlayoutEntradas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"></LinearLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:id="@+id/tvCortes"
+                android:layout_width="90dp"
+                android:layout_height="33dp"
+                android:layout_marginStart="82dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/fenix"
+                android:text="Cortes"
+                android:textColor="#FFF8F8"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/ivbar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="-34dp"
+                app:srcCompat="@drawable/vectorvertical" />
+
+            <HorizontalScrollView
+                android:layout_width="1270dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="Imagenes de cortes de carne"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/linearlayoutCortes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"></LinearLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:id="@+id/tvArroces"
+                android:layout_width="120dp"
+                android:layout_height="33dp"
+                android:layout_marginStart="82dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/fenix"
+                android:text="Arroces"
+                android:textColor="#FFF8F8"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/ivbarA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="-34dp"
+                app:srcCompat="@drawable/vectorvertical" />
+
+            <HorizontalScrollView
+                android:layout_width="1270dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="Imagenes de Arroces"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/linearlayoutArroces"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"></LinearLayout>
+            </HorizontalScrollView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvHamburguesas"
+                    android:layout_width="190dp"
+                    android:layout_height="33dp"
+                    android:layout_marginStart="82dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/fenix"
+                    android:text="Hamburguesas"
+                    android:textColor="#FFF8F8"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/ivBar2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="-34dp"
+                    app:srcCompat="@drawable/vectorvertical" />
+
+                <HorizontalScrollView
+                    android:layout_width="1270dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="Imagenes de Hamburguesas"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:id="@+id/linearlayoutHamburguesas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"></LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvPastas"
+                    android:layout_width="190dp"
+                    android:layout_height="33dp"
+                    android:layout_marginStart="82dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/fenix"
+                    android:text="Pastas"
+                    android:textColor="#FFF8F8"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/ivBar3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="-34dp"
+                    app:srcCompat="@drawable/vectorvertical" />
+
+                <HorizontalScrollView
+                    android:layout_width="1270dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="Imagenes de pastas"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:id="@+id/linearlayoutPastas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"></LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvPostres"
+                    android:layout_width="190dp"
+                    android:layout_height="33dp"
+                    android:layout_marginStart="82dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/fenix"
+                    android:text="Postres"
+                    android:textColor="#FFF8F8"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/ivBar4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="-34dp"
+                    app:srcCompat="@drawable/vectorvertical" />
+
+                <HorizontalScrollView
+                    android:layout_width="1270dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="Imagenes de postres"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:id="@+id/linearlayoutPostres"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"></LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/ivBanner"
+        android:layout_width="501dp"
+        android:layout_height="142dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006"
+        app:srcCompat="@drawable/bannerdonfranrbg" />
+</androidx.constraintlayout.widget.ConstraintLayout>
